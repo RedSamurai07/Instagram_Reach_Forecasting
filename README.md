@@ -83,6 +83,7 @@ df = pd.read_csv("Instagram-Reach.csv", encoding = 'latin-1')
 print(df.head())
 ```
 <img width="339" height="132" alt="image" src="https://github.com/user-attachments/assets/447eae75-131a-441a-b697-f4cb3402c8c6" />
+
 Converting datetime to Date
 ```python
 df['Date'] = pd.to_datetime(df['Date'])
